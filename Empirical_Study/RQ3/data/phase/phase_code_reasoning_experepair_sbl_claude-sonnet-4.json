@@ -1,0 +1,55 @@
+{
+  "results": "results/execution_annotation/experepair_sbl_claude-sonnet-4_allreasoning.json",
+  "format": "experepair",
+  "n_instances": 300,
+  "n_missing": 0,
+  "phases": {
+    "patch": {
+      "turns": 6310,
+      "turns_with_code_reasoning": 3593,
+      "family_turns": {
+        "call_dep": 983,
+        "others": 918,
+        "state": 1087,
+        "output": 1870,
+        "cond": 449,
+        "loop": 204
+      }
+    },
+    "reproduction": {
+      "turns": 3451,
+      "turns_with_code_reasoning": 1157,
+      "family_turns": {
+        "output": 666,
+        "others": 377,
+        "call_dep": 205,
+        "cond": 36,
+        "state": 166,
+        "loop": 49
+      }
+    },
+    "localization": {
+      "turns": 1676,
+      "turns_with_code_reasoning": 656,
+      "family_turns": {
+        "output": 241,
+        "others": 136,
+        "call_dep": 231,
+        "loop": 52,
+        "state": 191,
+        "cond": 58
+      }
+    },
+    "validation": {
+      "turns": 200,
+      "turns_with_code_reasoning": 42,
+      "family_turns": {
+        "output": 23,
+        "state": 4,
+        "others": 15,
+        "loop": 1,
+        "call_dep": 1
+      }
+    }
+  }
+}

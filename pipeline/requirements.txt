@@ -1,0 +1,8 @@
+# mini-swe-agent 2.4.1 is installed from source with patches/mini-swe-agent-2.4.1.patch (see README)
+jinja2>=3.1
+pyyaml>=6.0
+networkx>=3.0
+bashlex>=0.18
+litellm>=1.80
+pytest>=8.0
+# optional: pygraphviz (only to render phase-graph PDFs), datasets (only without INSTANCES_JSONL)

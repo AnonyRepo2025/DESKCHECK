@@ -1,0 +1,43 @@
+{
+  "results": "results/execution_annotation/icat_sbp_sonnet-4.5_allreasoning.json",
+  "n_instances": 718,
+  "n_missing": 0,
+  "phases": {
+    "reproducer": {
+      "turns": 28754,
+      "turns_with_code_reasoning": 2723,
+      "family_turns": {
+        "output": 1374,
+        "call_dep": 394,
+        "state": 490,
+        "cond": 412,
+        "others": 290,
+        "loop": 48
+      }
+    },
+    "patch_editor": {
+      "turns": 21736,
+      "turns_with_code_reasoning": 1741,
+      "family_turns": {
+        "output": 585,
+        "call_dep": 402,
+        "state": 586,
+        "loop": 94,
+        "others": 251,
+        "cond": 98
+      }
+    },
+    "localizer": {
+      "turns": 5312,
+      "turns_with_code_reasoning": 412,
+      "family_turns": {
+        "call_dep": 160,
+        "state": 131,
+        "others": 43,
+        "output": 107,
+        "cond": 37,
+        "loop": 19
+      }
+    }
+  }
+}

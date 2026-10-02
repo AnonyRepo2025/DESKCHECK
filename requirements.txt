@@ -1,0 +1,15 @@
+# Everything needed by the scripts in this repository (Python >= 3.10; 3.12 recommended).
+#
+# Analysis / figure scripts (Empirical_Study, Overall_Performance, Per_Stage_Evaluation)
+matplotlib>=3.7
+numpy>=1.24
+pandas>=2.0
+openpyxl>=3.1      # reads Per_Stage_Evaluation/localization/*.xlsx
+#
+# Repair pipeline (pipeline/). mini-swe-agent 2.4.1 is installed separately from source with
+# pipeline/patches/mini-swe-agent-2.4.1.patch (see README.md, step 3).
+-r pipeline/requirements.txt
+#
+# Optional:
+#   datasets  - only when running the pipeline / RQ1 detectors without a local instances file
+#   pygraphviz - only to render plan_monitor phase-graph PDFs

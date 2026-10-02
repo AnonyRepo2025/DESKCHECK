@@ -1,0 +1,43 @@
+{
+  "results": "results/execution_annotation/icat_sbv_minimax-2.5_allreasoning.json",
+  "n_instances": 500,
+  "n_missing": 0,
+  "phases": {
+    "reproducer": {
+      "turns": 14665,
+      "turns_with_code_reasoning": 4706,
+      "family_turns": {
+        "output": 3417,
+        "others": 591,
+        "loop": 148,
+        "call_dep": 587,
+        "state": 866,
+        "cond": 263
+      }
+    },
+    "patch_editor": {
+      "turns": 8099,
+      "turns_with_code_reasoning": 2140,
+      "family_turns": {
+        "state": 734,
+        "others": 369,
+        "output": 866,
+        "call_dep": 632,
+        "loop": 160,
+        "cond": 228
+      }
+    },
+    "localizer": {
+      "turns": 6997,
+      "turns_with_code_reasoning": 1724,
+      "family_turns": {
+        "call_dep": 651,
+        "output": 678,
+        "state": 594,
+        "cond": 161,
+        "others": 233,
+        "loop": 111
+      }
+    }
+  }
+}

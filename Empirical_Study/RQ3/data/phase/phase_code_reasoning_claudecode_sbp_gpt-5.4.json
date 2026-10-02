@@ -1,0 +1,56 @@
+{
+  "results": "results/execution_annotation/claudecode_sbp_gpt-5.4_allreasoning.json",
+  "format": "claudecode",
+  "n_instances": 722,
+  "n_missing": 4,
+  "phases": {
+    "validation": {
+      "turns": 15186,
+      "turns_with_code_reasoning": 3064,
+      "family_turns": {
+        "state": 280,
+        "output": 1385,
+        "others": 807,
+        "cond": 61,
+        "call_dep": 250,
+        "loop": 39
+      }
+    },
+    "patch": {
+      "turns": 15114,
+      "turns_with_code_reasoning": 2457,
+      "family_turns": {
+        "state": 1115,
+        "output": 777,
+        "loop": 85,
+        "call_dep": 363,
+        "cond": 131,
+        "others": 435
+      }
+    },
+    "localization": {
+      "turns": 7601,
+      "turns_with_code_reasoning": 402,
+      "family_turns": {
+        "cond": 23,
+        "state": 138,
+        "call_dep": 90,
+        "output": 117,
+        "others": 56,
+        "loop": 20
+      }
+    },
+    "single_session": {
+      "turns": 831,
+      "turns_with_code_reasoning": 93,
+      "family_turns": {
+        "output": 22,
+        "state": 42,
+        "loop": 5,
+        "call_dep": 22,
+        "cond": 5,
+        "others": 9
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "n_instances": 500,
+  "n_missing_graph": 0,
+  "n_missing_traj": 0,
+  "code_reasoning_flags": [
+    "has_state_strong",
+    "has_call_dep",
+    "has_output_talk",
+    "has_loop_talk",
+    "has_cond_talk",
+    "has_others_talk"
+  ],
+  "phases": {
+    "general": {
+      "node_occurrences": 21101,
+      "node_occurrences_with_code_reasoning": 2338,
+      "distinct_nodes": 5046,
+      "distinct_nodes_with_code_reasoning": 860,
+      "family_occurrences": {
+        "has_output_talk": 1115,
+        "has_state_strong": 702,
+        "has_cond_talk": 239,
+        "has_call_dep": 611,
+        "has_loop_talk": 115,
+        "has_others_talk": 290
+      }
+    },
+    "localization": {
+      "node_occurrences": 12225,
+      "node_occurrences_with_code_reasoning": 2041,
+      "distinct_nodes": 10747,
+      "distinct_nodes_with_code_reasoning": 2003,
+      "family_occurrences": {
+        "has_cond_talk": 181,
+        "has_output_talk": 797,
+        "has_call_dep": 725,
+        "has_others_talk": 256,
+        "has_loop_talk": 111,
+        "has_state_strong": 653
+      }
+    },
+    "validation": {
+      "node_occurrences": 8342,
+      "node_occurrences_with_code_reasoning": 1033,
+      "distinct_nodes": 7476,
+      "distinct_nodes_with_code_reasoning": 1030,
+      "family_occurrences": {
+        "has_state_strong": 314,
+        "has_call_dep": 220,
+        "has_cond_talk": 97,
+        "has_output_talk": 523,
+        "has_others_talk": 124,
+        "has_loop_talk": 47
+      }
+    },
+    "patch": {
+      "node_occurrences": 6071,
+      "node_occurrences_with_code_reasoning": 626,
+      "distinct_nodes": 5462,
+      "distinct_nodes_with_code_reasoning": 623,
+      "family_occurrences": {
+        "has_others_talk": 62,
+        "has_call_dep": 154,
+        "has_output_talk": 281,
+        "has_state_strong": 167,
+        "has_cond_talk": 76,
+        "has_loop_talk": 36
+      }
+    }
+  }
+}

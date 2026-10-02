@@ -1,0 +1,7 @@
+runs/
+data/swebench_pro_731.jsonl
+__pycache__/
+*.pyc
+.ccenv-*
+mini-swe-agent/
+SWE-bench_Pro-os/

@@ -1,0 +1,15 @@
+model,benchmark,scaffold,n_easy,code_reasoning_easy,n_medium,code_reasoning_medium,n_difficult,code_reasoning_difficult
+claude-4-5-opus-high,sbv,mini,194,168,261,242,45,42
+gpt-5-2-high,sbv,mini,194,25,261,23,45,10
+minimax-2-5-high,sbv,mini,194,173,261,243,45,43
+claude-opus-4,sbp,mini,105,20,226,61,399,118
+gpt-5,sbp,mini,105,13,226,28,399,50
+minimax-2.5,sbv,icat,194,183,261,256,45,45
+gpt-5.4,sbp,icat,104,40,215,105,387,178
+sonnet-4.5,sbp,icat,105,84,223,190,390,345
+claude-opus-4-5,sbv,openhands,194,166,261,236,45,41
+gpt-5.5,sbv,openhands,194,50,261,57,45,15
+minimax-m2.5,sbv,openhands,194,181,261,249,45,43
+claude-opus-4-5,sbv,sonar,194,165,261,247,45,43
+gpt-5.4,sbp,claudecode,105,76,224,176,397,330
+claude-sonnet-4,sbl,experepair,45,45,45,45,3,3

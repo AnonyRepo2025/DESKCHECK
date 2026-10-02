@@ -1,0 +1,42 @@
+{
+  "results": "results/execution_annotation/icat_sbp_gpt-5.4_allreasoning.json",
+  "n_instances": 706,
+  "n_missing": 0,
+  "phases": {
+    "reproducer": {
+      "turns": 22435,
+      "turns_with_code_reasoning": 955,
+      "family_turns": {
+        "others": 206,
+        "output": 579,
+        "call_dep": 119,
+        "state": 124,
+        "loop": 5,
+        "cond": 1
+      }
+    },
+    "patch_editor": {
+      "turns": 8540,
+      "turns_with_code_reasoning": 326,
+      "family_turns": {
+        "state": 115,
+        "output": 94,
+        "call_dep": 56,
+        "cond": 7,
+        "others": 79,
+        "loop": 7
+      }
+    },
+    "localizer": {
+      "turns": 4480,
+      "turns_with_code_reasoning": 24,
+      "family_turns": {
+        "output": 7,
+        "others": 6,
+        "state": 6,
+        "loop": 3,
+        "call_dep": 2
+      }
+    }
+  }
+}
