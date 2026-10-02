@@ -1,0 +1,63 @@
+{
+  "ICLR 2025": {
+    "listed_total": 11677,
+    "accepted_total": 3703,
+    "keyword_matched": 78,
+    "statuses": {
+      "Spotlight": 380,
+      "Reject": 4911,
+      "Poster": 3110,
+      "Withdraw": 2993,
+      "Oral": 213,
+      "Desk Reject": 70
+    }
+  },
+  "ICLR 2026": {
+    "listed_total": 19814,
+    "accepted_total": 5358,
+    "keyword_matched": 251,
+    "statuses": {
+      "Withdraw": 5098,
+      "Reject": 8453,
+      "Poster": 5120,
+      "Desk Reject": 905,
+      "Oral": 223,
+      "ICLR 2026 ConditionalPoster": 14,
+      "ICLR 2026 ConditionalOral": 1
+    }
+  },
+  "ICML 2025": {
+    "listed_total": 3527,
+    "accepted_total": 3342,
+    "keyword_matched": 64,
+    "statuses": {
+      "Poster": 2996,
+      "Oral": 121,
+      "Reject": 185,
+      "Spotlight": 225
+    }
+  },
+  "ICML 2026": {
+    "listed_total": 6341,
+    "accepted_total": 6341,
+    "keyword_matched": 387,
+    "statuses": {
+      "Poster": 5805,
+      "Spotlight": 536
+    }
+  },
+  "NeurIPS 2025": {
+    "listed_total": 6212,
+    "accepted_total": 5812,
+    "keyword_matched": 147,
+    "statuses": {
+      "Spotlight": 739,
+      "Poster": 4980,
+      "Reject": 400,
+      "Oral": 93
+    }
+  },
+  "NeurIPS 2026": {
+    "error": "could not fetch nips/nips2026: https://media.githubusercontent.com/media/papercopilot/paperlists/main/nips/nips2026.json -> 404 (list not published yet?)"
+  }
+}

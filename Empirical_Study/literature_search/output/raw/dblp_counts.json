@@ -1,0 +1,26 @@
+{
+  "ICSE 2025": {
+    "source": "researchr",
+    "toc_total": 245,
+    "keyword_matched": 12,
+    "note": "dblp: https://dblp.org/search/publ/api did not return JSON (content-type text/html; charset=utf-8) -- looks like an HTML (anti-bot challenge?) page"
+  },
+  "ICSE 2026": {
+    "source": "researchr",
+    "toc_total": 321,
+    "keyword_matched": 20,
+    "note": "dblp: https://dblp.org/search/publ/api did not return JSON (content-type text/html; charset=utf-8) -- looks like an HTML (anti-bot challenge?) page"
+  },
+  "FSE 2025": {
+    "source": "researchr",
+    "toc_total": 135,
+    "keyword_matched": 7,
+    "note": "dblp: https://dblp.org/search/publ/api did not return JSON (content-type text/html; charset=utf-8) -- looks like an HTML (anti-bot challenge?) page"
+  },
+  "FSE 2026": {
+    "source": "researchr",
+    "toc_total": 211,
+    "keyword_matched": 15,
+    "note": "dblp: gave up after 5 attempts: https://dblp.org/search/publ/api (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
+  }
+}

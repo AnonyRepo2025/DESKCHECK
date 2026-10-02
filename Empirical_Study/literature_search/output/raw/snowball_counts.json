@@ -1,0 +1,27 @@
+{
+  "SWE-bench": {
+    "citations": 4086,
+    "venue_year_ok": 132,
+    "keyword_matched": 57
+  },
+  "SWE-agent": {
+    "citations": 2017,
+    "venue_year_ok": 46,
+    "keyword_matched": 19
+  },
+  "Agentless": {
+    "citations": 520,
+    "venue_year_ok": 25,
+    "keyword_matched": 9
+  },
+  "AutoCodeRover": {
+    "citations": 452,
+    "venue_year_ok": 40,
+    "keyword_matched": 18
+  },
+  "SWE-Bench-Pro": {
+    "citations": 270,
+    "venue_year_ok": 2,
+    "keyword_matched": 1
+  }
+}
