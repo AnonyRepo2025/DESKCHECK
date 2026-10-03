@@ -1,8 +1,11 @@
+
 # DeskCheck: Replication Package
 
 This repository holds the code and data for the paper's empirical study of code reasoning in
 programming agents (RQ1–RQ3), and for DeskCheck (the `simagent` repair pipeline). DeskCheck guides an
 agent to reason about how code executes, and the package evaluates it on SWE-bench Pro (RQ4–RQ5).
+
+We also released the trajectories and patches of the proposed agentic framework on SWE-bench-pro in this [link](https://drive.google.com/file/d/17WxoWDYlPlEKKbGn-Qo4qbXAlFimzmZC/view?usp=sharing). Before you extract the archive, make sure your drive has at least 7 to 8 GB of free space.
 
 | Directory | Paper section | Contents |
 |---|---|---|
@@ -13,7 +16,6 @@ agent to reason about how code executes, and the package evaluates it on SWE-ben
 | [`prompts.md`](prompts.md) | | the cores of reasoning prompts |
 | [`taxonomy-standalone.pdf`](taxonomy-standalone.pdf) | | code reasoning taxonomy |
 | [`Issue-protonmail-ac23d1ef.md`](Issue-protonmail-ac23d1ef.md) | | worked example of one SWE-bench Pro issue |
-
 ---
 
 ## 1. System requirements
