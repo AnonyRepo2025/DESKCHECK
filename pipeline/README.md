@@ -1,6 +1,6 @@
-# SimAgent pipeline
+# DeskCheck pipeline
 
-SimAgent is a repair pipeline for SWE-bench Pro. Its phases ask the model to simulate how the code runs on concrete inputs: tracing a wrong value back to where it is built, mentally running the patched code against each requirement, and deriving expected outputs from the specification. Deterministic checks sit between those steps. The prompt cores are listed in [`../prompts.md`](../prompts.md).
+DeskCheck is a repair pipeline for SWE-bench Pro. Its phases ask the model to simulate how the code runs on concrete inputs: tracing a wrong value back to where it is built, mentally running the patched code against each requirement, and deriving expected outputs from the specification. Deterministic checks sit between those steps. The prompt cores are listed in [`../prompts.md`](../prompts.md).
 
 ```
 issue + requirements + interface
@@ -82,7 +82,7 @@ python scripts/select_instances.py --batch py_batch1 > py1.jsonl
 PAR=8 scripts/run_mini.sh luna py1.jsonl runs/luna_py1          # or: m3, or a path to a yaml
 scripts/grade.sh py1.jsonl runs/luna_py1
 
-# Claude Code runtime (Haiku 4.5): SimAgent arm and the reproduction-test baseline arm
+# Claude Code runtime (Haiku 4.5): DeskCheck arm and the reproduction-test baseline arm
 PAR=8 MODEL=haiku scripts/run_claude_code.sh py1.jsonl runs/haiku_py1
 scripts/grade.sh py1.jsonl runs/haiku_py1/reason
 scripts/grade.sh py1.jsonl runs/haiku_py1/repro
